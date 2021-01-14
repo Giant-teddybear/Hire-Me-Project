@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Hire Me Project</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            .viewport {
+                box-sizing: border-box
+            }
+
+            body {
+                font-family: Verdana, sans-serif;
+                margin: 0
+            }
+
+            .mySlides {
+                display: none
+            }
+
+            img {
+                vertical-align: middle;
+            }
+
+            /* Slideshow container */
+            .slideshow-container {
+                max-width: 300px;
+                position: relative;
+                margin: auto;
+            }
+
+            /* Next & previous buttons */
+            .prev,
+            .next {
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                width: auto;
+                padding: 16px;
+                margin-top: -22px;
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+            }
+
+            /* Position the "next button" to the right */
+            .next {
+                right: 0;
+                border-radius: 3px 0 0 3px;
+            }
+
+            /* On hover, add a black background color with a little bit see-through */
+            .prev:hover,
+            .next:hover {
+                background-color: rgba(0, 0, 0, 0.8);
+            }
+
+            /* Caption text */
+            .text {
+                color: #f2f2f2;
+                font-size: 15px;
+                padding: 8px 12px;
+                position: absolute;
+                bottom: 8px;
+                width: 100%;
+                text-align: center;
+            }
+
+            /* Number text (1/3 etc) */
+            .numbertext {
+                color: #f2f2f2;
+                font-size: 12px;
+                padding: 8px 12px;
+                position: absolute;
+                top: 0;
+            }
+
+            /* The dots/bullets/indicators */
+            .dot {
+                cursor: pointer;
+                height: 15px;
+                width: 15px;
+                margin: 0 2px;
+                background-color: #bbb;
+                border-radius: 50%;
+                display: inline-block;
+                transition: background-color 0.6s ease;
+            }
+
+            .active,
+            .dot:hover {
+                background-color: #717171;
+            }
+
+            /* Fading animation */
+            .fade {
+                -webkit-animation-name: fade;
+                -webkit-animation-duration: 1.5s;
+                animation-name: fade;
+                animation-duration: 1.5s;
+            }
+
+            @-webkit-keyframes fade {
+                from {
+                    opacity: .4;
+                }
+
+                to {
+                    opacity: 1;
+                }
+            }
+
+            @keyframes fade {
+                from {
+                    opacity: .4;
+                }
+
+                to {
+                    opacity: 1;
+                }
+            }
+
+            /* On smaller screens, decrease text size */
+            @media only screen and (max-width: 300px; ) {
+
+                .prev,
+                .next,
+                .text {
+                    font-size: 11px;
+                }
+            }
+        </style>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <body style="background-color:;">
+            <h1>Hire Me!</h1>
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="https://www.missionbit.org/_next/static/images/lilian-20ca615619da916eb5cc2caaf8166f38.jpg" style="width:100%">
+                    <div class="Her">Lilian Emelife</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="https://www.brila.net/wp-content/uploads/2019/04/Nigerian-athletes.jpg" style="width:100%">
+                    <div class="Track&field">Track & Field</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="https://usctrojans.com/images/2019/9/28/Start_at_the_Master_s_XC_Invitational2HHom.jpg?width=1128&height=635&mode=crop&scale=both&format=jpg&quality=80" style="width:100%">
+                    <div class="Cross Country">Cross Country</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+            <h2>Learn a little bit about me!</h2>
+            <p>My name is Lilian Emelife. I am a junior at Philip and Sala Academic High school. In my free time before the pandemipandemic started I enjoyed going to Cross Country and Track & Field practice because I love spending time with my amazing teammates, as well as running short and long distance runs with them. Now, I prefer watching movies and playing with my one year old niece who is very jovial and energetic. I also love writing codes and creating projects for myself when I have nothig to do. Since this pandemic staeted I started my own <a href="https://www.youtube.com/watch?v=9X0XGr-MwD4&t=92s">Youtube channel</a> and ever since school started I haven't had the chance to crete more contents/videos for my subscribers. I am a very organised person when it comes to planing for certain things like homework, projects, cooking, and thinking about my future. In the next five years I see my self graduating form my dream college with a degree in robotics engineering and I hope to go back to school to get a degree in medicine.</p>
+
+            <h2 class="favorite">My Favorite Colors</h2>
+            <div class="color">
+                <div class="container">
+                    <div class="purple">Purple</div>
+                    <div class="navyblue">Navy Blue</div>
+                    <div class="black">Black</div>
+                    <div class="teal">Teal</div>
+                    <div class="grey">Grey</div>
+                </div>
+            </div>
+
+            <h2 class="three">3 Things I can't Live Without</h2>
+            <ol>
+                <li>Family</li>
+                <li>Friends</li>
+                <li>Music</li>
+            </ol>
+
+            <h2>My Favorite Artists</h2>
+            <div class="container">
+                <a href="https://www.youtube.com/watch?v=lRpBLAwIbeA">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS0insvKuJdKlSFQ53ULqbpdmorigVEBLDOxQ&usqp=CAU" height= "100px" > </a>
+                
+               <a href= "https://www.youtube.com/watch?v=gdZLi9oWNZg">
+                <img src= "https://www.etonline.com/sites/default/files/styles/video_1920x1080/public/images/2020-08/eto_intv_bts_082020_vidpic.jpg?h=d1cb525d&itok" height= "100px"
+                     > </a>
+                    
+            </div>
+
+        </body>
+    </body>
+</html>
